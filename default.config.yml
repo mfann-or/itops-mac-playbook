@@ -1,0 +1,22 @@
+---
+downloads: ~/.ansible-downloads/
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - git
+  - github/gh/gh
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - firefox
+  - google-chrome
+  - iterm2
+  - lastpass
+  - powershell
+  - slack
+  - spotify
+  - visual-studio-code
