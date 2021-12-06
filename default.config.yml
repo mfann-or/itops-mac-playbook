@@ -16,6 +16,7 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - lastpass
+  - microsoft-remote-desktop
   - powershell
   - slack
   - spotify
