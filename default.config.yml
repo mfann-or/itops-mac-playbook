@@ -1,14 +1,22 @@
 ---
 downloads: ~/.ansible-downloads/
 
+homebrew_upgrade_all_packages: true
+
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - awscli
   - git
   - github/gh/gh
+  - openssl
+  - packer
+  - hashicorp/tap/terraform
+  - hashicorp/tap/vault
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -20,4 +28,6 @@ homebrew_cask_apps:
   - powershell
   - slack
   - spotify
+  - vagrant
+  - virtualbox
   - visual-studio-code
